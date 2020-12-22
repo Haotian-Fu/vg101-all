@@ -1,0 +1,28 @@
+#README FOR VG101 MIDTERM
+
+###ex2
+algorithm
+input:int n=1502;
+output:one thousand fifty hundred and two;
+algorithm:
+char n[6];
+for(i=0;i<6;i++){
+    if(n[i]!=0) then
+        if(i=2) then print thousand
+        if(i=3||0) then print hundred
+        if i=1||4 then print and
+
+}
+
+
+###ex3
+algorithm
+input: int n=13;
+output:3
+       -
+       3
+algorithm:
+int column=n%10;
+int line=n/10;
+print line
+print column
