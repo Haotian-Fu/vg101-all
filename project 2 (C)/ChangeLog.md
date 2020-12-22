@@ -1,55 +1,58 @@
-# ChangeLog
+# ChangeLog for VG101 Project 2
+
+Written by Zhang Jingyan, 520370910005.
+
+
 
 All notable changes to this project will be documented in this file.
 
 ## [m1]
-2020 - 10 - 2
+
+2020 - 10 - 28
+
 Added
 
-- Basic drawing of crossroad and light
-- Simple input prompt
-- Color cycle of the traffic light
+- Structure of cards and players
+- command line arguments
+- shuffle function
 
 
 
-2020 - 10 - 4
 Change
 
-- Change the code into functions
-- Forward the limit of x,y
+2020 - 11 - 4
+
+- replace the initial shuffle function using `qsort)()`
+
+
+
+
 
 ## [m2]
 
-2020 - 10 - 4
+2020 - 11 - 4
+
 Added
 
-- the random number of cars in every direction
-- the plate of cars
-- implement **one** car animation
+- define the deck data structure using an array
 
+- playcard function
 
+- showcard function
 
 
 
 ## [m3]
 
-2020 - 10 - 13
+2020 - 11 - 20
+
+Change
+
+- delete card.c All in main.c
+
+
+
 Added
 
-- the whole animation
-
-- the violation of cars
-
-
-
-Changes
-
-- change the plate funciton
-
-
-
-2020 - 10 - 18
-
-Changes
-
-- change the stopping function
+- makefile
+- dynamic array
